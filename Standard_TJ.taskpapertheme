@@ -70,12 +70,12 @@
 	<characterStyle id="done" strikethroughStyle="NSUnderlineStyleSingle" />
 	<entryRule matchesQuery="@done" contentCharacterStyleID="done" />
 	
-	<!-- @question style. This section defines the styles that are applied to lines tagged with @done. -->
+	<!-- @question style -->
 	<color id="question" red="1.0" green="0.0" blue="0.0" alpha="1.0" />
 	<characterStyle id="question" foregroundColorID="question" />
 	<entryRule matchesQuery="@question" contentCharacterStyleID="question" />
 	
-	<!-- @answer style. This section defines the styles that are applied to lines tagged with @done. -->
+	<!-- @answer style -->
 	<color id="answer" red="0.0" green="1.0" blue="0.0" alpha="1.0" />
 	<characterStyle id="answer" foregroundColorID="answer" />
 	<entryRule matchesQuery="@answer" contentCharacterStyleID="answer" />
